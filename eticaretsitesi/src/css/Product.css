@@ -1,0 +1,53 @@
+.image{
+    width: 180px;
+    height: 240px;
+}
+
+.card{
+    width: 200px;
+    height: 450px;
+    box-shadow: 1px 4px 3px  lightgrey;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.card:hover{
+    box-shadow: 1px 4px 3px  grey;
+    transition: all;
+    cursor: pointer;
+}
+
+.detail-button{
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: rgb(203, 202, 199);
+}
+
+.detail-button:hover{
+    background-color: rgb(139, 134, 128);
+    cursor: pointer;
+}
+
+.plus-minus{
+    font-size: 28px;
+    display:'flex'; 
+    align-content:'center';
+}
+
+.plus-minus:hover{
+    cursor: pointer;
+}
+
+.sepet-button{
+    margin-top: 25px;
+    border: none;
+    padding: 10px;
+    background-color:rgb(234, 186, 64);
+    border-radius: 10px;
+}
+
+.sepet-button:hover{
+    cursor: pointer;
+    background-color:rgb(212, 152, 0);
+}
